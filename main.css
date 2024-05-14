@@ -1,0 +1,481 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#252a32;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 4;
+}
+.name{
+    font-size: 30px;
+    width: 200px;
+    color: white;
+    position: relative;
+    left: 10%;
+    top: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hi{
+    display: flex;
+    width: 500px;
+    gap: 45px;
+    list-style: none;
+    color: white;
+    align-items: center;
+    position: relative;
+    left: -150px;
+}
+.hi .in{
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.hi .in:hover{
+    color: aqua;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.first{
+    height: 100vh;
+    background-color:#252a32;
+}
+.content{
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    position: relative;
+    height: 400px;
+}
+.top1{
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+}
+.center{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+}
+.bottom{
+    font-size: 30px;
+    color: white;
+    font-weight: 900;
+}
+.social{
+    display: flex;
+    gap: 10px;
+    position: absolute;
+    top: 60%;
+}
+.bi-instagram,.bi-linkedin,.bi-twitter-x,.bi-facebook{
+    font-size: 15px;
+    color: aqua;
+}
+.jj{
+    border: 2px solid aqua;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+.jj:hover{
+    background-color: aqua;
+    -webkit-box-shadow: 0px 0px 2px 2px aqua;
+-moz-box-shadow: 0px 0px 2px 2px aqua;
+box-shadow: 0px 0px 2px 2px aqua;
+cursor: pointer;
+}
+.jj:hover i{
+    color: black;
+}
+.down{
+    height: 40px;
+    width: 150px;
+    background-color: aqua;
+    border: 2px solid aqua;
+    outline: none;
+    border-radius: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    -webkit-box-shadow: 0px 0px 4px 3px aqua;
+    -moz-box-shadow: 0px 0px 4px 3px aqua;
+    box-shadow: 0px 0px 4px 3px aqua;
+    position: absolute;
+    bottom: 10%;
+    cursor: pointer;
+}
+.down:hover{
+    box-shadow:0px 0px 2px 2px aqua ;
+}
+/* second */
+.second{
+    height: 100vh;
+    background-color: #454e5d;
+    position: relative;
+}
+.content1{
+    height: 300px;
+    width: 600px;
+    position: absolute;
+    left: 45%;
+    top: 25%;
+}
+.abouttit{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+}
+.me{
+    color: aqua;
+}
+.fav{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+}
+.read{
+    height: 40px;
+    width: 150px;
+    border: 2px solid aqua;
+    border-radius: 30px;
+    background-color: aqua;
+    -webkit-box-shadow: 0px 0px 4px 3px aqua;
+    -moz-box-shadow: 0px 0px 4px 3px aqua;
+    box-shadow: 0px 0px 4px 3px aqua;
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 600;
+}
+.read:hover{
+    -webkit-box-shadow: 0px 0px 1.5px 1px aqua;
+    -moz-box-shadow: 0px 0px 1.5px 1px aqua;
+    box-shadow: 0px 0px 1.5px 1px aqua;
+}
+/* third */
+.third{
+    height: 100vh;
+    background-color: #252a32;
+    position: relative;
+}
+.os{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    gap: 70%;
+}
+.os span{
+    color: aqua;
+}
+.sercon{
+    display:grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 150px 150px 150px;
+    column-gap: 50px;
+    row-gap: 30px;
+    position: absolute;
+    left: 15%;
+    top: 25%;
+}
+.sc{
+    border-radius: 10px;
+    background-color:#454e5d;
+}
+/* fourth */
+.fourth{
+    height: 100vh;
+    background-color:#454e5d ;
+    position: relative;
+}
+.skilltit{
+    color: aqua;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+}
+.tech,.profi{
+    height: 60vh;
+    width: 30%;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    font-weight: 800;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: row;
+}
+.ts,.ps{
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+.sub,.sub1,.sub2,.sub3{
+    display: flex;
+    gap: 300px;
+    position: absolute;
+    left: 10%;
+    top: 20%;
+    color: white;
+}
+.pro1,.pro2,.pro3,.pro4{
+    height: 3vh;
+    width: 100%;
+    position: absolute;
+    border-radius: 20px;
+    background-color:#252a32;
+    top: 25px;
+}
+.val,.val1,.val2{
+    position: absolute;
+    width: 75%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 2px 2px aqua;
+    -moz-box-shadow: 0px 0px 2px 2px aqua;
+    box-shadow: 0px 0px 2px 2px aqua;
+}
+.sub1{
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+.pro2{
+    width: 103%;
+}
+.val1{
+    width: 80%;
+}
+.val2{
+    width: 85%;
+}
+.sub2{
+    position: absolute;
+    left: 10%;
+    top: 60%;
+    gap: 250px;
+}
+.pro3{
+    width: 85%;
+    left: 10%;
+    top: 68%;
+}
+.val3{
+    position: absolute;
+    width: 45%;
+    height: 100%;
+    background-color: aqua;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 2px 2px aqua;
+    -moz-box-shadow: 0px 0px 2px 2px aqua;
+    box-shadow: 0px 0px 2px 2px aqua;
+}
+.sub3{
+    top: 85%;
+    gap: 270px;
+}
+.pro4{
+    position:absolute;
+    top: 93%;
+    left: 10%;
+    width: 85%;
+}
+/* fourth */
+.profi{
+    left: 60%;
+}
+.profi1{
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
+    position: absolute;
+    top: 20%;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.tw,.tw1,.tw2,.tw3{
+    height: 150px;
+    width: 150px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: conic-gradient(aqua 45%, transparent 45%, transparent 93%);
+    -webkit-box-shadow: 0px 0px 4px 2px aqua;
+    -moz-box-shadow: 0px 0px 4px 2px aqua;
+    box-shadow: 0px 0px 4px 2px aqua;
+}
+.tw-sub,.tw1-sub,.tw2-sub,.tw3-sub{
+    height: 100px;
+    width: 100px;
+    border: 2px solid aqua;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    background-color:#454e5d ;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.tw1{
+    background: conic-gradient(aqua 80%, transparent 80%, transparent 93%);
+}
+.tw2{
+    background: conic-gradient(aqua 70%, transparent 70%, transparent 93%);
+}
+.tw3{
+    background: conic-gradient(aqua 60%, transparent 60%, transparent 93%);
+}
+.fifth{
+    height: 100vh;
+    background-color: #252a32;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+.lp{
+    color: white;
+    font-size: 50px;
+    font-weight: 800;
+    position: absolute;
+    left: 35%;
+    top: 10%;
+}
+.lp span{
+    color: aqua;
+}
+.lpele{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    grid-template-rows: 250px 250px;
+    column-gap: 20px;
+    row-gap: 20px;
+    position: absolute;
+    left: 13%;
+    top: 23%;
+}
+.lpe{
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 8px 7px 6px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 8px 7px 6px rgba(0,0,0,0.75);
+box-shadow: 0px 8px 7px 6px rgba(0,0,0,0.75);
+}
+.one{
+    background-image: url('protfolioimg.jpg');
+    background-size: 350px;
+}
+.two{
+    background-image: url('profolioimg2.avif');
+    background-size: 350px 250px;
+}
+.three{
+    background-image: url('portfolioimg3.avif');
+    background-size: 350px 250px;
+}
+.four{
+    background-image: url('protforlioimg4.avif');
+    background-size: 350px 250px;
+}
+.five{
+    background-image: url('portfolioimg5.avif');
+    background-size: 350px 250px;
+}
+.six{
+    background-image: url('potfolioimg6.jpg');
+    background-size: 350px 250px;
+}
+/* sixith */
+.sixth{
+    height: 100vh;
+    background-color: #454e5d;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
+.ce{
+    color: white;
+    font-weight: 700;
+    font-size: 50px;
+    position: absolute;
+    left: 38%;
+    top: 10%;
+}
+.ce span{
+    color: aqua;
+}
+.cont{
+    display: grid;
+    grid-template-columns: 350px 350px;
+    grid-template-rows: 80px 80px 300px;
+    column-gap: 25px;
+    row-gap: 10px;
+    position: absolute;
+    left: 25%;
+    top: 20%;
+    height: 550px;
+}
+.cont div{
+    border-radius: 10px;
+    background-color: #252a32;
+    color: white;
+}
+.contfive{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+}
+.contone,.conttwo,.contthree,.contfour,.contfive{
+    position: relative;
+}
+textarea{
+    resize: none;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.submit{
+    height: 40px;
+    width: 150px;
+    border-radius: 40px;
+    border: none;
+    background-color: aqua;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    -webkit-box-shadow: 0px 0px 4px 2px aqua;
+    -moz-box-shadow: 0px 0px 4px 2px aqua;
+    box-shadow: 0px 0px 4px 2px aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+.submit:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 2px 1px aqua;
+    -moz-box-shadow: 0px 0px 2px 1px aqua;
+    box-shadow: 0px 0px 2px 1px aqua;
+}
